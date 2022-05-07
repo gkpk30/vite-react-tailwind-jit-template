@@ -8,6 +8,8 @@ Then run **`npm i`** in the root of the folder to install all the dependencies.
 If there are any vulnarabilities run **'npm audit fix'**. I think this is needed if running a newer version of Node or npm
 Then run **'npm run dev'**. 
 
+If using the TailwindUI components you must run **'npm install @headlessui/react'**
+
 Then you can go ahead and start editing the src/App.jsx file and you can use tailwind throughout the entire app as the src/index.css file has registered tailwind and it is imported in the main.jsx file.
 
 ---
