@@ -8,8 +8,8 @@ module.exports = {
     extend: {
       fontFamily: {
        
-        Josefin: ['Josefin', ...defaultTheme.fontFamily.sans],
-        Cormorant: ['Cormorant', ...defaultTheme.fontFamily.sans]
+        primary: ['Josefin', ...defaultTheme.fontFamily.sans],
+        secondary: ['Cormorant', ...defaultTheme.fontFamily.sans]
       },
       colors: {
         'background-beige': '#243c5a',
