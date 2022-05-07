@@ -2,44 +2,41 @@
 
 **Update: TailwindCSS v3 came out, and it uses JIT compiler by default. The config file and the package.json has been updated accordingly.**
 
-Just clone this repository or click the `Use This Template` button or use degit (`npx degit KrishGarg/vite-react-tailwind-jit-template#main`) to get a copy of this. Then just run `yarn` or `npm i` in the root of the folder to install all the dependencies. Then you can go ahead and start editing the src/App.jsx file and you can use tailwind throughout the entire app as the src/index.css file has registered tailwind and it is imported in the main.jsx file.
+Just clone this repository or click the **`Use This Template`** to get a copy of this. 
+
+Then run **`npm i`** in the root of the folder to install all the dependencies. 
+If there are any vulnarabilities run **'npm audit fix'**. I think this is needed if running a newer version of Node or npm
+Then run **'npm run dev'**. 
+
+Then you can go ahead and start editing the src/App.jsx file and you can use tailwind throughout the entire app as the src/index.css file has registered tailwind and it is imported in the main.jsx file.
 
 ---
 
-## Quick Clone:
-
-```shell
-npx degit KrishGarg/vite-react-tailwind-jit-template#main
-```
-
-## Demo Site: https://vite-react-tailwind.surge.sh
-
----
 
 ## Commands:
 
 To start the dev server on your machine:
 
-```shell
-yarn dev
+```
+npm run dev
 ```
 
 To start the dev server on your network:
 
-```shell
-yarn dev --host
+```
+npm run serve
 ```
 
 To make the production build:
 
-```shell
-yarn build
+```
+npm run build
 ```
 
 To preview the production build locally:
 
-```shell
-yarn serve
+```
+npm run serve
 ```
 
 ---
